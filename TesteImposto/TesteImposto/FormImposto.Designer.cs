@@ -77,15 +77,17 @@
             // txtEstadoOrigem
             // 
             this.txtEstadoOrigem.Location = new System.Drawing.Point(95, 31);
+            this.txtEstadoOrigem.MaxLength = 2;
             this.txtEstadoOrigem.Name = "txtEstadoOrigem";
-            this.txtEstadoOrigem.Size = new System.Drawing.Size(939, 20);
+            this.txtEstadoOrigem.Size = new System.Drawing.Size(50, 20);
             this.txtEstadoOrigem.TabIndex = 4;
             // 
             // txtEstadoDestino
             // 
             this.txtEstadoDestino.Location = new System.Drawing.Point(95, 53);
+            this.txtEstadoDestino.MaxLength = 2;
             this.txtEstadoDestino.Name = "txtEstadoDestino";
-            this.txtEstadoDestino.Size = new System.Drawing.Size(939, 20);
+            this.txtEstadoDestino.Size = new System.Drawing.Size(50, 20);
             this.txtEstadoDestino.TabIndex = 5;
             // 
             // label4
